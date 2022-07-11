@@ -1,0 +1,45 @@
+.footer{
+    background: rgb(25, 25, 26);
+    height: 180px;
+    width: 100%;
+   
+}
+div ul{
+    padding:20px;
+    text-align: center;
+    
+    
+}
+div ul li{
+    display: inline-block;
+    padding: 7px 40px;
+}
+div ul li a{
+    color:#ebe2e2;
+}
+@media (max-width: 320px){
+    
+    div ul li a{
+      font-size: 10px;
+
+    }
+    
+   
+    div ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+      div ul li a{
+        font-size: 20px;
+    }
+}
+.copyright{
+    color: #a9a9a9;
+    text-align: center;
+    
+}
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
